@@ -1,2 +1,2 @@
-echo -e "\n\n##### Post build #####\n"
+echo -e "\n\n##### Pre build #####\n"
 echo ${test_run_id}

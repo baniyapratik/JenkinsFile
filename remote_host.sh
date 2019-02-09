@@ -1,1 +1,1 @@
-echo "Execution Server Host: `hostname`"
+echo "Hello"
