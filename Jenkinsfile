@@ -7,7 +7,9 @@ properties([
 
 node {
   stage(params.test_run_id+ ' ' +params.test_obj_indx){
-    sh "pre_build_task.sh"
+    sh "pwd"
+    sh "ls -la"
+    sh "./pre_build_task.sh"
   }
   def remote = [:]
     remote.host = 'cafy-2.cisco.com'
