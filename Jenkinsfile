@@ -6,7 +6,7 @@ properties([
 ])
 
 node {
-  stage(${test_run_id} ${test_obj_indx}){
+  stage(params.test_run_id+ ' ' params.test_obj_indx){
     sh "pre_build_task.sh"
   }
   def remote = [:]
